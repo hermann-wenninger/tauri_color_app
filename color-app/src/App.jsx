@@ -5,6 +5,12 @@ import { SketchPicker } from 'react-color';
 import "./App.css";
 
 
+
+
+
+
+
+
 function App() {
   const [color, setColor] = useState("#f2f999f");
   const [isOpen, setIsOpen] = useState(false);
@@ -16,6 +22,7 @@ function App() {
   
      
       <>
+      
           <>
             <SketchPicker
             color={color}
